@@ -88,7 +88,7 @@ const Projects = () => {
           {filteredProjects.map((project, index) => (
             <Card 
               key={project.id}
-              className={`group bg-white/10 backdrop-blur-sm border-[#90caf9] hover:bg-white/20 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+              className={`group bg-white/9 backdrop-blur-sm border-[#90caf9] hover:bg-white/20 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardHeader className="p-0">
@@ -154,7 +154,7 @@ const Projects = () => {
 
         {/* Featured Projects Call to Action */}
         <div className={`text-center mt-16 transition-all duration-1000 delay-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto border border-[#90caf9]">
+          <div className="bg-white/9 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto border border-[#90caf9]">
             <h3 className="text-2xl font-bold text-white mb-4">
               Interested in working together?
             </h3>

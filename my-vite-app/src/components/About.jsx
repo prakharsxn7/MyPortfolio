@@ -73,7 +73,7 @@ const About = () => {
               </div>
 
               {/* Fun Fact */}
-              <Card className="bg-white/10 backdrop-blur-sm border-[#90caf9] hover:bg-white/20 transition-all duration-300">
+              <Card className="bg-white/9 backdrop-blur-sm border-[#90caf9] hover:bg-white/20 transition-all duration-300">
                 <CardContent className="p-6">
                   <div className="flex items-center gap-3 mb-3">
                     <span className="text-2xl">🎉</span>
@@ -84,7 +84,7 @@ const About = () => {
               </Card>
 
               {/* Currently Exploring */}
-              <Card className="bg-white/10 backdrop-blur-sm border-[#90caf9] hover:bg-white/20 transition-all duration-300">
+              <Card className="bg-white/9 backdrop-blur-sm border-[#90caf9] hover:bg-white/20 transition-all duration-300">
                 <CardContent className="p-6">
                   <div className="flex items-center gap-3 mb-4">
                     <span className="text-2xl">🚀</span>
@@ -107,7 +107,7 @@ const About = () => {
 
               {/* Contact Info */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:bg-white/20 transition-all duration-300">
+                <div className="bg-white/9 backdrop-blur-sm rounded-lg p-4 hover:bg-white/20 transition-all duration-300">
                   <div className="flex items-center gap-3">
                     <span className="text-xl">📧</span>
                     <div>
@@ -117,7 +117,7 @@ const About = () => {
                   </div>
                 </div>
                 
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:bg-white/20 transition-all duration-300">
+                <div className="bg-white/9 backdrop-blur-sm rounded-lg p-4 hover:bg-white/20 transition-all duration-300">
                   <div className="flex items-center gap-3">
                     <span className="text-xl">📍</span>
                     <div>

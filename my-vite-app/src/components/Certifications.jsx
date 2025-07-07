@@ -112,7 +112,7 @@ const Certifications = () => {
         </div>
 
         {/* Achievement Summary */}
-        <div className={`mt-16 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        {/* <div className={`mt-16 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <Card className="bg-white/80 backdrop-blur-sm border-2 border-white/50 max-w-4xl mx-auto">
             <CardContent className="p-8">
               <div className="text-center mb-8">
@@ -156,7 +156,7 @@ const Certifications = () => {
               </div>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
       </div>
     </section>
   );

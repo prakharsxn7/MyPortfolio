@@ -68,7 +68,7 @@ const Hero = () => {
      
 
       {/* Floating Tech Icons */}
-      <div className="absolute inset-0 pointer-events-none">
+      {/* <div className="absolute inset-0 pointer-events-none">
         {['⚛️', '🟨', '🟢', '🐍', '🔷', '🎨', '🚀', '☁️'].map((icon, index) => (
           <div
             key={index}
@@ -83,7 +83,7 @@ const Hero = () => {
             {icon}
           </div>
         ))}
-      </div>
+      </div> */}
 
       {/* Main Content */}
       <div className="relative z-10 container mx-auto px-6 py-32 flex flex-col lg:flex-row items-center justify-between min-h-screen">
@@ -123,7 +123,7 @@ const Hero = () => {
             <Button 
               onClick={handleDownloadResume}
               variant="outline"
-              className="border-2 border-[#90caf9] text-[#90caf9] hover:bg-[#90caf9] hover:text-[#0d47a1] font-semibold px-8 py-6 text-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+              className="bg-gradient-to-r from-[#90caf9] to-[#bbdefb] text-[#0d47a1] hover:from-[#bbdefb] hover:to-[#e3f2fd] font-semibold px-8 py-6 text-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               Download Resume
             </Button>
