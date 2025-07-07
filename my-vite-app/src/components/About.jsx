@@ -40,16 +40,16 @@ const About = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-[#90caf9] to-[#bbdefb] mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Left - Profile Image */}
           <div className={`transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'}`}>
             <div className="relative">
               <div className="relative z-10 group">
-                <div className="w-96 h-96 mx-auto rounded-2xl overflow-hidden shadow-2xl border-4 border-[#90caf9] transform group-hover:scale-105 transition-all duration-500">
+                <div className="w-full h-auto max-w-full lg:w-[30rem] lg:h-[30rem] mx-auto rounded-2xl overflow-hidden  ">
                   <img 
                     src={personalInfo.avatar1} 
                     alt={personalInfo.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover"
                   />
                 </div>
                 

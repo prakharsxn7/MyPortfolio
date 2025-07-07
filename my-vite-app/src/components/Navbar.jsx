@@ -106,8 +106,8 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-[#e3f2fd] rounded-b-xl">
-            <div className="flex flex-col space-y-2 mt-4 w-full"> {/* Removed px-6 from here */}
+          <div className="md:hidden mt-3 pb-3 border-t border-[#e3f2fd] rounded-b-xl">
+            <div className="flex flex-col space-y-2 mt-3 w-[50%] mx-auto"> {/* Removed px-6 from here */}
               {navigationItems.map((item) => (
                 <button
                   key={item.id}

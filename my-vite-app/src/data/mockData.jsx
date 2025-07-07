@@ -7,17 +7,16 @@ export const personalInfo = {
   github: "https://github.com/prakharsxn7",
   linkedin: "https://linkedin.com/in/prakharsxn7",
   resume: "/Prakhar_Saxena.Resume.pdf",
-  bio: "Passionate full-stack developer with 3+ years of experience building scalable web applications. I love creating intuitive user experiences and robust backend systems using modern technologies.",
+  bio: "Full-stack developer specializing in dynamic web applications with React, Node.js, Express, and MongoDB. I translate complex concepts into functional code and collaborate effectively with cross-functional teams to deliver high-quality software solutions.",
 
   avatar: "/profile.png",
-  avatar1: "/picofme.png",
-  funFact: "When I'm not coding, you'll find me exploring new coffee shops or playing chess online!"
+  avatar1: "/Picture.png",
+  funFact: "When I'm not coding, you'll find me exploring travel destinations and physical activities, such as badminton and cycling. I enjoy connecting with new people and learning about different cultures."
 };
 
 export const currentlyExploring = [
   "GenAI",
   "Next.js 14",
-  "Clean code architecture",
   "Reading:   Mindset by Robert C. Martin"
 ];
 
@@ -43,8 +42,8 @@ export const projects = [
     image: "/730_1x_shots_so.png",
     stack: ["Html","Javascript","React", "Tailwind CSS", "Framer Motion"],
     category: "Frontend",
-    liveDemo: "https://portfolio-demo.com",
-    github: "https://github.com/prakharsaxena/portfolio",
+    liveDemo: "https://prakharsportfolio.vercel.app",
+    github: "https://github.com/prakharsaxena/Myportfolio",
     featured: false
   },
   {
@@ -148,41 +147,42 @@ export const certifications = [
     issuer: "NamasteDev",
     date: "January 2025",
     credentialId: "B524137BC07BF379D327685384B",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=300&h=200&fit=crop",
+    image: "/certificate.jpg",
     verified: true,
     link: "https://namastedev.com/prakharsxn25/certificates/namaste-javascript"
   },
   {
     id: 2,
+    name: "MERN STACK & DSA",
+    issuer: "SHAPEMYSKILLS BY DUCAT",
+    date: "August 2024",
+    credentialId: "A524137BC07BF379D327685384B",
+    image: "/3.jpeg",
+    verified: true,
+    link: "https://shapemyskills.knorish.com/"
+  },
+  {
+    id: 3,
     name: "Postman API Fundamentals Student Expert",
     issuer: " Postman",
     date: " November 2023",
     credentialId: "655f7ebf46507a44fe7672b7",
-    image: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=300&h=200&fit=crop",
+    image: "/2.jpeg",
     verified: true,
     link: "https://badgr.com/public/assertions/y6TQXGZHRkSzx6wDuokk3g"
 
   },
   {
-    id: 3,
+    id: 4,
     name: "Google Cloud Career Practitioner Pathway Campaign",
     issuer: "Google Cloud Platform",
     date: "June 2023",
     credentialId: "2976615",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=300&h=200&fit=crop",
+    image: "/1.jpeg",
     verified: true,
     link: "https://www.cloudskillsboost.google/public_profiles/380acb74-942d-45aa-b3a7-5347565e423b"
   },
-  {
-    id: 4,
-    name: "Programming in C",
-    issuer: "Great Learning",
-    date: "September 2021",
-    credentialId: "GL133636",
-    image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=300&h=200&fit=crop",
-    verified: true,
-    link: "https://www.mygreatlearning.com/academy/learn-for-free/courses/c-programming-in-hindi?utm_source=linkedin&utm_medium=linkedin&utm_campaign=linkedin_certificate_share&utm_source_page=public_certificate_view"
-  }
+  
 ];
 
 export const githubStats = {
