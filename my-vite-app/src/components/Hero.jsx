@@ -142,7 +142,7 @@ const Hero = () => {
         <div className={`lg:w-1/2 mt-12 lg:mt-0 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'}`}>
           <div className="relative">
             {/* Main Avatar */}
-            <div className="relative z-10 w-80 h-80 mx-auto rounded-full overflow-hidden shadow-2xl border-4 border-[#90caf9] transform hover:scale-105 transition-all duration-300">
+            <div className="relative z-10 w-[24rem] h-[24rem] mx-auto rounded-full overflow-hidden shadow-2xl border-4 border-[#90caf9] transform hover:scale-105 transition-all duration-300">
               <img 
                 src={personalInfo.avatar} 
                 alt={personalInfo.name}
