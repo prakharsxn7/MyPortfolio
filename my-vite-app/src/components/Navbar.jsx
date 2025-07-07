@@ -49,7 +49,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 max-w-screen-lg w-[98%] rounded-full ${ // Changed w-[96%] to w-[98%] and removed px-6
+    <nav className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 max-w-screen-lg w-[85%] rounded-full px-11 ${ // Changed w-[96%] to w-[98%] and removed px-6
       isScrolled 
         ? 'bg-white/90 backdrop-blur-md shadow-lg border-b border-[#e3f2fd]' 
         : 'bg-white/65 backdrop-blur-md shadow-lg border-b border-transparent'
@@ -64,7 +64,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center justify-between space-x-8">
             {navigationItems.map((item) => (
               <button
                 key={item.id}
@@ -90,7 +90,7 @@ const Navbar = () => {
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="md:hidden p-2"
           >
-            <div className="w-6 h-6 flex flex-col justify-center space-y-1">
+            <div className="w-10 h-10 flex flex-col justify-center space-y-2">
               <span className={`block h-0.5 w-6 bg-current transition-all duration-300 ${
                 isMobileMenuOpen ? 'rotate-45 translate-y-1' : ''
               } ${isScrolled ? 'bg-[#0d47a1]' : 'bg-white'}`}></span>
@@ -112,7 +112,7 @@ const Navbar = () => {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className={`text-left px-4 py-2 text-sm font-medium transition-all duration-300 rounded-lg ${
+                  className={`text-left px-4 py-2 text-sm font-medium transition-all duration-300 rounded-full ${
                     activeSection === item.id
                       ? 'bg-[#e3f2fd] text-[#0d47a1]'
                       : 'text-[#1565c0] hover:bg-[#e3f2fd] hover:text-[#0d47a1]'

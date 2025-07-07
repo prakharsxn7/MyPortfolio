@@ -142,7 +142,7 @@ const Projects = () => {
                   <Button 
                     onClick={() => handleViewGithub(project.github)}
                     variant="outline"
-                    className="flex-1 border-[#90caf9] text-[#90caf9] hover:bg-[#90caf9] hover:text-[#0d47a1] transition-all duration-300"
+                    className="flex-1 bg-gradient-to-r from-[#90caf9] to-[#bbdefb] text-[#0d47a1] hover:from-[#bbdefb] hover:to-[#e3f2fd] transition-all duration-300 shadow-lg hover:shadow-xl"
                   >
                     📋 GitHub
                   </Button>
