@@ -107,7 +107,7 @@ const Hero = () => {
             
             <p className="text-xl text-[#e3f2fd] mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
               I build responsive, dynamic web applications using the MERN stack, 
-              creating seamless user experiences with clean, scalable code.
+              delivering seamless user experiences through clean and scalable code.
             </p>
           </div>
 
@@ -162,6 +162,42 @@ const Hero = () => {
               { } Node
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Scroll Down Indicator */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white text-4xl animate-pulse">
+        <div className="relative w-10 h-10">
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            strokeWidth={2} 
+            stroke="currentColor" 
+            className="w-10 h-10 absolute top-0 left-0"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg>
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            strokeWidth={2} 
+            stroke="currentColor" 
+            className="w-10 h-10 absolute top-2 left-0 opacity-75"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg>
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            strokeWidth={2} 
+            stroke="currentColor" 
+            className="w-10 h-10 absolute top-4 left-0 opacity-50"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg>
         </div>
       </div>
     </section>

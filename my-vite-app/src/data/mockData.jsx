@@ -7,7 +7,7 @@ export const personalInfo = {
   github: "https://github.com/prakharsxn7",
   linkedin: "https://linkedin.com/in/prakharsxn7",
   resume: "/Prakhar_Saxena.Resume.pdf",
-  bio: "Full-stack developer specializing in dynamic web applications with React, Node.js, Express, and MongoDB. I translate complex concepts into functional code and collaborate effectively with cross-functional teams to deliver high-quality software solutions.",
+  bio: "Full-stack developer with hands-on experience in building web applications using React, Node.js, Express, and MongoDB. Strong foundation in software development principles, with a focus on writing clean, maintainable code and a commitment to continuous learning.",
 
   avatar: "/profile.png",
   avatar1: "/Picture.png",
@@ -25,7 +25,7 @@ export const projects = [
   {
     id: 1,
     name: "RiskEval - A Credit Risk Evaluation Platform",
-    description: "RiskEval is a machine learning–powered platform that predicts the loan creditworthiness of applicants based on financial and behavioral data. Using an XGBoost model, it classifies users into risk priority levels (P1 to P4) to guide lending decisions and minimize the risk of default",
+    description: "ML-powered platform using XGBoost to assess loan risk levels (P1–P4) for smarter lending decisions.",
     image: "/533_1x_shots_so.png",
     stack: ["Html", "CSS", "Javascript", "React", "Node.js", "MongoDB", "Express.js", "XGBoost", "FastAPI"],
     category: "Full Stack",
@@ -38,7 +38,7 @@ export const projects = [
   {
     id: 2,
     name: "Portfolio Website",
-    description: "Responsive portfolio website with smooth animations and modern design.",
+    description: "Personal portfolio showcasing projects with smooth animations and a clean UI.",
     image: "/730_1x_shots_so.png",
     stack: ["Html","Javascript","React", "Tailwind CSS", "Framer Motion"],
     category: "Frontend",
@@ -49,7 +49,7 @@ export const projects = [
   {
     id: 3,
     name: "CryptoTracker",
-    description: "CryptoTracker is a comprehensive application designed to provide real-time information about cryptocurrencies. It displays the current prices of various cryptocurrencies along with their names, price trends (increase or decrease), market capitalization, logos, and total volume. ",
+    description: "Tracks real-time cryptocurrency prices, trends, and market stats using CoinGecko API. ",
     image: "/700shots_so.png",
     stack: ["React.js", "Chart.js", "TailwindCSS", "CoinGecko API", "Node.js", "Express.js"],
     category: "Full Stack",
@@ -60,7 +60,7 @@ export const projects = [
   {
     id: 4,
     name: "FinSight",
-    description: "Personal Finance Tracker is a comprehensive application designed to help users manage their personal finances. It provides features for tracking income, expenses, and creating budgets, along with the ability to set financial goals and receive personalized financial advice.",
+    description: "Track income, expenses, and budgets with simple visual breakdowns.",
     image: "/4.png",
     stack: ["React.js", "Html", "CSS", "Javascript"],
     category: "Frontend",
