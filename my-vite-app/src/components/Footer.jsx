@@ -20,10 +20,10 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-br from-[#e3f2fd] to-[#bbdefb] border-t border-[#90caf9] relative overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute inset-0 overflow-hidden">
+      {/* <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-10 left-10 w-32 h-32 bg-gradient-to-r from-[#0d47a1] to-[#1565c0] rounded-full opacity-5 animate-pulse"></div>
         <div className="absolute bottom-10 right-10 w-24 h-24 bg-gradient-to-r from-[#1e88e5] to-[#42a5f5] rounded-full opacity-5 animate-ping"></div>
-      </div>
+      </div> */}
 
       <div className="container mx-auto px-6 py-16 relative z-10">
         {/* Footer Content */}

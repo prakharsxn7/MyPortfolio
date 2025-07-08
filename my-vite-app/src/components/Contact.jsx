@@ -114,9 +114,9 @@ const Contact = () => {
           <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-[#0d47a1] to-[#1e88e5] bg-clip-text text-transparent">
             Let's Connect
           </h2>
-          <p className="text-xl text-[#0d47a1] max-w-2xl mx-auto">
+          {/* <p className="text-xl text-[#0d47a1] max-w-2xl mx-auto">
             Have a project in mind or want to discuss opportunities? I'd love to hear from you!
-          </p>
+          </p> */}
           <div className="w-24 h-1 bg-gradient-to-r from-[#0d47a1] to-[#1e88e5] mx-auto rounded-full mt-6"></div>
         </div>
 

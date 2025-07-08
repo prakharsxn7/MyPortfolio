@@ -47,9 +47,9 @@ const Certifications = () => {
           <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-[#0d47a1] to-[#1565c0] bg-clip-text text-transparent">
             Certifications & Achievements
           </h2>
-          <p className="text-xl text-[#0d47a1] max-w-2xl mx-auto">
+          {/* <p className="text-xl text-[#0d47a1] max-w-2xl mx-auto">
             Professional certifications and achievements that validate my expertise
-          </p>
+          </p> */}
           <div className="w-24 h-1 bg-gradient-to-r from-[#0d47a1] to-[#1565c0] mx-auto rounded-full mt-6"></div>
         </div>
 

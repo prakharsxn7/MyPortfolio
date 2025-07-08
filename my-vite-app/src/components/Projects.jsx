@@ -59,9 +59,9 @@ const Projects = () => {
           <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-[#90caf9] to-[#e3f2fd] bg-clip-text text-transparent">
             My Projects
           </h2>
-          <p className="text-xl text-white max-w-2xl mx-auto">
+          {/* <p className="text-xl text-white max-w-2xl mx-auto">
             Here are some of my recent projects that showcase my skills and experience
-          </p>
+          </p> */}
           <div className="w-24 h-1 bg-gradient-to-r from-[#90caf9] to-[#e3f2fd] mx-auto rounded-full mt-6"></div>
         </div>
 
@@ -75,7 +75,7 @@ const Projects = () => {
               className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
                 selectedCategory === category 
                   ? 'bg-gradient-to-r from-[#90caf9] to-[#bbdefb] text-[#0d47a1] shadow-lg' 
-                  : 'border-[#90caf9] text-[#90caf9] hover:bg-[#90caf9] hover:text-[#0d47a1]'
+                  : 'border-[#90caf9] text-[#90caf9] bg-transparent hover:bg-[#90caf9] hover:text-[#0d47a1]'
               }`}
             >
               {category}

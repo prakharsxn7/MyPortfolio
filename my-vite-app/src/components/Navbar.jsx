@@ -51,7 +51,7 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 max-w-screen-lg w-[85%] rounded-full px-11 ${ // Changed w-[96%] to w-[98%] and removed px-6
       isScrolled 
-        ? 'bg-white/90 backdrop-blur-md shadow-lg border-b border-[#e3f2fd]' 
+        ? 'bg-white/40 backdrop-md shadow-lg border-b border-[#e3f2fd]' 
         : 'bg-white/65 backdrop-blur-md shadow-lg border-b border-transparent'
     }`}>
       <div className="container mx-auto py-4"> {/* Removed px-6 */}
