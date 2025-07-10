@@ -6,7 +6,7 @@ export const personalInfo = {
   location: "Kanpur, India",
   github: "https://github.com/prakharsxn7",
   linkedin: "https://linkedin.com/in/prakharsxn7",
-  resume: "/Prakhar_Saxena.Resume.pdf",
+  resume: "/PrakharSaxena_Resume.pdf",
   bio: "Full-stack developer with hands-on experience in building web applications using React, Node.js, Express, and MongoDB. Strong foundation in software development principles, with a focus on writing clean, maintainable code and a commitment to continuous learning.",
 
   avatar: "/profile.png",
