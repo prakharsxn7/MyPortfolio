@@ -287,7 +287,7 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            {/* Response Time */}
+            {/* Response Time
             <Card className="bg-gradient-to-r from-[#0d47a1] to-[#1565c0] text-white">
               <CardContent className="p-6 text-center">
                 <div className="text-3xl mb-2">⚡</div>
@@ -297,7 +297,7 @@ const Contact = () => {
                   Looking forward to hearing from you!
                 </p>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </div>
       </div>
